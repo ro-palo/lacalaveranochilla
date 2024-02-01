@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(0, 0, 0);
+    color: rgb(237, 87, 18);
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+body{
+    background-color: black;
+}
+ul{
+    list-style-type: none;
+    text-decoration: none;
+}
+.menuUl {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    margin: 0;
+    }
+    
+section p{
+        color: rgb(215, 101, 51);
+    } 
+
+.menuNav ul li a:hover{
+        color: rgb(129, 9, 9);
+    }
+    .logo{
+
+        width: 150px;
+        margin-right: 200px;
+    }
+
+.bordes-redondeados{
+        border-radius:2rem;
+        width: 300px;
+    }
+p{
+    margin: 0;
+
+}
+.navbarColor{
+    padding: 0;
+}
+.contenedor{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 25%);
+        
+        margin: 3rem 2rem;  
+    }
+
+
+@media screen and (max-width:480px) {
+    .contenedor .img-dos, .img-cinco{
+        display: none;
+    }
+    .contenedor{
+        display: grid; 
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3,25%);
+    }
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+@media  screen and (min-width:1024px){
+        .contenedor .img-dos, .img-cinco{
+            display: block;
+        }
+        .contenedor{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 40% 40% 15%;
+            }
+        .contenedor.img-uno, .contenedor.img-tres{
+            grid-row: span 2;
+        }
+}
+    
+    
+    
+
+
+
+
+
+
+
+.menu li{
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    color: rgb(219, 33, 142);
+    text-transform: uppercase;
+}
+section nav div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hijos{
+    background-color: rgb(242, 57, 57);
+    width: 200px;
+    height: 200px;
+}
+    
+
+
+
+.tamano{
+    height: 10%; 
+}
+
+h1 {
+    color: rgba(126, 6, 6, 0.526);
+    text-align: center;
+    font-size: 3rem;
+}
+
+img{
+    width:100%;
+}
+
+.div-buton{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+section div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    section div P{
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+footer p{
+    text-align: center;
+}
+
