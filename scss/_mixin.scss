@@ -1,0 +1,17 @@
+@mixin general{
+        margin: 0;
+        padding: 0;
+        background-color:$colorFondo;
+        color: $colorTexto;
+        font-family:$letra;
+}
+@mixin logo{
+        width: 150px; 
+        margin-right: 250px;
+}
+
+@mixin titulos{
+        color: $colorTitulo;
+        text-align: center;
+        margin: 0%;
+}

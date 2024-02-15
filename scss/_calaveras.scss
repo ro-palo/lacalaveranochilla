@@ -1,0 +1,11 @@
+@import "variables";
+@import "mixin";
+h1{
+    @include titulos
+}
+
+.des-img{
+    color: $colorTexto;
+    background-color: $colorFondFormularios;
+}
+

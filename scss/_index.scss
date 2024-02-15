@@ -1,0 +1,11 @@
+@import "variables";
+@import "mixin";
+
+body{
+    @include general
+}
+
+
+.logo{
+    @include logo
+}
