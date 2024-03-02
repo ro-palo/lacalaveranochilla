@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: #d86015;
+  font-family: "Playfair Display";
+}
+
+.logo {
+  width: 150px;
+  margin-right: 250px;
+}
+
+.cuadro1-altura {
+  height: 1129px;
+}
+
+.card-title {
+  color: #d86015;
+}
+
+.bg-body-tertiary {
+  --bs-bg-opacity:0;
+}
+
+.formulario {
+  border: 2px red solid;
+  text-align: center;
+}
+
+.cont {
+  background-color: black;
+}
+.cont .form {
+  background-color: #721010;
+  margin: auto;
+  width: 90%;
+  max-width: 400px;
+  padding: 4.5em 3em;
+  border-radius: 15px;
+  text-align: center;
+}
+.cont .form_title {
+  font-size: 2rem;
+  margin-bottom: 0.5em;
+}
+.cont .form_paragraph {
+  font-weight: 300;
+}
+.cont .form_container {
+  margin-top: 3em;
+  display: grid;
+  gap: 2.5em;
+}
+.cont .form_group {
+  position: relative;
+  --color:#eede027e;
+}
+.cont .form_input {
+  width: 100%;
+  background-color: #721010;
+  color: rgba(238, 222, 2, 0.4941176471);
+  font-size: 1rem;
+  padding: 0.6em 0.3em;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid var(--color);
+  font-family: "Playfair Display";
+}
+.cont .form_input:not(:-moz-placeholder-shown) + .form_label {
+  transform: translateY(-12px) scale(0.7);
+  transform-origin: left top;
+  color: rgb(245, 221, 9);
+}
+.cont .form_input:focus + .form_label,
+.cont .form_input:not(:placeholder-shown) + .form_label {
+  transform: translateY(-12px) scale(0.7);
+  transform-origin: left top;
+  color: rgb(245, 221, 9);
+}
+.cont .form_label {
+  color: var(--color);
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 5px;
+  transform: translateY(10px);
+  transition: transform 0.5s, color 0.3s;
+}
+.cont .form_submit {
+  background-color: #721010;
+  color: rgba(238, 222, 2, 0.4941176471);
+  font-family: "Playfair Display";
+  font-weight: 300;
+  font-size: 1rem;
+  border: rgba(238, 222, 2, 0.4941176471) solid 1px;
+  border-radius: 5em;
+}
+
+h1 {
+  color: rgba(255, 247, 0, 0.7254901961);
+  text-align: center;
+  margin: 0%;
+}
+
+.des-img {
+  color: #d86015;
+}
+
+.cuadro-altura {
+  height: 742px;
+}
+
+.text-color {
+  color: #d86015;
+}
+
+.espejoLargo {
+  height: 620px;
+}/*# sourceMappingURL=style.css.map */

@@ -9,3 +9,10 @@ body{
 .logo{
     @include logo
 }
+
+.cuadro1-altura{
+    height: 1129px;
+}
+.card-title{
+    color: $colorTexto;
+}
